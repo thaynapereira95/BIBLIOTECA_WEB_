@@ -1,0 +1,208 @@
+/* ====== CONFIGURAÇÕES GERAIS ====== */
+body {
+  font-family: "Open Sans", sans-serif;
+  
+  background-color: #000;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+/* ====== CABEÇALHO ====== */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0a1413;
+  padding: 15px 30px;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  left: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ====== MENU ====== */
+.menu-lista {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-lista li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: color 0.3s;
+}
+
+.menu-lista li a:hover {
+  color: #ffcb05;
+}
+
+/* ====== SEÇÃO PRINCIPAL ====== */
+.principal {
+  text-align: center;
+  background-color: #000;
+}
+
+/* ====== IMAGEM PRINCIPAL ====== */
+.primeira-img img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  
+}
+
+/* ====== SEÇÃO SOBRE ====== */
+.sobre {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  margin: 40px 40px auto;
+  margin-bottom: 40px;
+
+  
+  
+  
+}
+
+.sobre h2 {
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.sobre-texto {
+  width: 100%;
+}
+
+.texto-sobre {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.texto-sobre p {
+  flex: 1;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* ====== IMAGEM DENTRO DO TEXTO ====== */
+.img-texto {
+  width: 45%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+
+/* ====== IMAGENS PEQUENAS ====== */
+.img-pequena {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.img-pequena img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-pequena img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ffcb05;
+}
+
+/* ====== SEÇÃO LIVROS ====== */
+
+/* ======== SEÇÃO NOSSOS LIVROS ======== */
+.livros {
+  background-color: #001f3f; /* azul escuro UniFECAF */
+  color: #fff;
+  text-align: center;
+  padding: 60px 30px;
+  margin-bottom: 40px;
+  margin: 40px 40px auto;
+  border-radius: 20px;
+}
+
+.livros h2 {
+  color: #ffcb05; /* dourado UniFECAF */
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container dos livros */
+.livros-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Cartão de cada livro */
+.livro-card {
+  background-color: #000000;
+  color: #c5c5c5;
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.83);
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+}
+
+.livro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(5, 213, 255, 0.634);
+}
+
+/* Imagem do livro */
+.livro-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  
+}
+
+/* Título e descrição */
+.livro-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.livro-card p {
+  font-size: 13px;
+  color: #333;
+}
+
